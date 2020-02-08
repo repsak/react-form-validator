@@ -1,0 +1,27 @@
+{
+  "name": "@rylovnikita/react-form-validator",
+  "version": "1.0.1",
+  "description": "Validator chain for react-forms library",
+  "main": "index.js",
+  "files": [
+    "dest"
+  ],
+  "repository": "https://github.com/repsak/react-form-validator.git",
+  "author": "Nikita Rylov <rylov@novotelecom.ru>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "fs-extra": "^8.1.0",
+    "rollup": "^1.31.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "scripts": {
+    "postpublish": "node ./publish/postpublish.js",
+    "rollup": "./node_modules/.bin/rollup -c --compact && node ./publish/prepublish.js"
+  }
+}
