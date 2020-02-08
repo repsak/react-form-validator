@@ -1,8 +1,8 @@
 {
   "name": "@rylovnikita/react-form-validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Validator chain for react-forms library",
-  "main": "desc/index.min.js",
+  "main": "dest/index.min.js",
   "files": [
     "dest"
   ],
