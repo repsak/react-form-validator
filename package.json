@@ -7,7 +7,7 @@
     "dest"
   ],
   "repository": "https://github.com/repsak/react-form-validator.git",
-  "author": "Nikita Rylov <rylov@novotelecom.ru>",
+  "author": "Nikita Rylov <repsakovich@gmail.com>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
